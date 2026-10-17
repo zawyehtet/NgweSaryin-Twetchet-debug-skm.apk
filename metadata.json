@@ -1,0 +1,6 @@
+{
+  "name": "ငွေစာရင်းတွက်ချက်မှု",
+  "description": "Burmese accounting and ledger calculation app with live currency calculations, commission rates, and clean Myanmar Unicode UI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

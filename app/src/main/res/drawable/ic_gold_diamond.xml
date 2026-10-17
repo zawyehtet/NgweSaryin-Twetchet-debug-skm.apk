@@ -1,0 +1,17 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Outer Diamond -->
+    <path
+        android:fillColor="#FFD4AF37"
+        android:pathData="M12,2 L21,12 L12,22 L3,12 Z" />
+    <!-- Inner faceted sparkle highlights -->
+    <path
+        android:fillColor="#FFFFDF7A"
+        android:pathData="M12,4 L19,12 L12,14 L5,12 Z" />
+    <path
+        android:fillColor="#FFAA7C11"
+        android:pathData="M12,14 L19,12 L12,20 L5,12 Z" />
+</vector>

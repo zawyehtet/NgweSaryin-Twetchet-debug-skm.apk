@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="36dp"
+    android:viewportWidth="120"
+    android:viewportHeight="36">
+    <!-- Diamond -->
+    <path
+        android:fillColor="#FFD4AF37"
+        android:pathData="M16,6 L26,18 L16,30 L6,18 Z" />
+    <path
+        android:fillColor="#FFFFDF7A"
+        android:pathData="M16,9 L23,18 L16,20 L9,18 Z" />
+    <path
+        android:fillColor="#FFAA7C11"
+        android:pathData="M16,20 L23,18 L16,27 L9,18 Z" />
+</vector>
