@@ -1,5 +1,12 @@
 # ငွေစာရင်းတွက်ချက်မှု (Burmese Accounting & Ledger Calculator)
 
+[![Download APK](https://img.shields.io/badge/Download-NgweSaryin--Twetchet--debug--skm.apk-0F6B5C?style=for-the-badge&logo=android&logoColor=white)](https://github.com/zawyehtet/NgweSaryin-Twetchet/releases/latest/download/NgweSaryin-Twetchet-debug-skm.apk)
+[![Release](https://img.shields.io/github/v/release/zawyehtet/NgweSaryin-Twetchet?style=for-the-badge&color=D4AF37)](https://github.com/zawyehtet/NgweSaryin-Twetchet/releases/latest)
+
+> 📲 **Direct Download Link:**  
+> **[👉 Click Here to Download `NgweSaryin-Twetchet-debug-skm.apk`](https://github.com/zawyehtet/NgweSaryin-Twetchet/releases/latest/download/NgweSaryin-Twetchet-debug-skm.apk)**  
+> *(Automatic build from GitHub Releases)*
+
 A native Android application built with Kotlin, Jetpack Compose, and Material 3 for real-time ledger accounting, commission calculations, and payout reconciliations in Myanmar Unicode.
 
 ---
@@ -44,12 +51,13 @@ A native Android application built with Kotlin, Jetpack Compose, and Material 3 
 The project is pre-configured with **GitHub Actions** (`.github/workflows/build-apk.yml`) to automatically test, build, and publish the debug APK for direct download.
 
 ### 1. Direct Download from GitHub Releases
-Whenever you create or push a Git tag (e.g., `v1.0.0`), GitHub Actions automatically:
-1. Runs the test suite and builds the debug APK.
-2. Creates a new GitHub Release with the tag name.
-3. Attaches **`NgweSaryin-Twetchet-debug.apk`** for direct public download.
+Whenever a Git tag (e.g., `v1.0.0`) is pushed to GitHub repository **`zawyehtet/NgweSaryin-Twetchet`**:
+1. GitHub Actions automatically executes tests and compiles the APK.
+2. A GitHub Release is created with **`NgweSaryin-Twetchet-debug-skm.apk`** attached.
+3. Direct download URL pattern:
+   `https://github.com/zawyehtet/NgweSaryin-Twetchet/releases/download/v1.0.0/NgweSaryin-Twetchet-debug-skm.apk`
 
-To trigger a release manually via Git:
+To create and push a release tag:
 ```bash
 git tag v1.0.0
 git push origin v1.0.0
@@ -57,16 +65,14 @@ git push origin v1.0.0
 
 ### 2. Direct Download from GitHub Actions Artifacts
 On every push or pull request to `main` or `master`:
-1. Navigate to the **Actions** tab in your GitHub repository.
-2. Click on the latest workflow run: **Build & Release Debug APK**.
-3. Scroll to the **Artifacts** section at the bottom of the summary page.
-4. Click **`NgweSaryin-Twetchet-debug-apk`** to download the ZIP containing the compiled APK.
+1. Navigate to the **Actions** tab in GitHub.
+2. Select the latest run: **Build & Release Debug APK**.
+3. Scroll to the **Artifacts** section at the bottom.
+4. Click **`NgweSaryin-Twetchet-debug-skm`** to download the ZIP containing **`NgweSaryin-Twetchet-debug-skm.apk`**.
 
-### 3. Manual Workflow Trigger
+### 3. Manual Trigger from GitHub Actions
 1. Go to **Actions** → **Build & Release Debug APK**.
-2. Click **Run workflow**.
-3. Check **Publish as a GitHub Release** and specify a tag version (e.g. `v1.0.0`).
-4. Click **Run workflow**.
+2. Click **Run workflow**, ensure **Publish as a GitHub Release** is checked, specify tag (e.g. `v1.0.0`), and click **Run workflow**.
 
 ---
 
